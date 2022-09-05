@@ -1,0 +1,21 @@
+{
+    "environments": {
+        "dev": {
+            "profile": "dev",
+            "storage_type": "mlflow",
+            "properties": {
+                "workspace_directory": "/Shared/dbx/projects/dbx-minimal-projecty",
+                "artifact_location": "dbfs:/dbx/dbx-minimal-projecty"
+            }
+        },
+        "default": {
+            "profile": "DEFAULT",
+            "storage_type": "mlflow",
+            "properties": {
+                "workspace_directory": "/Shared/dbx/projects/dbx-minimal-projecty",
+                "artifact_location": "dbfs:/dbx/dbx-minimal-projecty"
+            }
+        }
+    },
+    "inplace_jinja_support": false
+}
